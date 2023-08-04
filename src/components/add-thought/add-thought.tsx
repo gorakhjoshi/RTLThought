@@ -1,6 +1,6 @@
 import { ChangeEvent, FormEvent, useState } from 'react'
-import { generateId, getNewExpirationTime } from '../utils/utils'
-import { IThought } from '../types/thought'
+import { generateId, getNewExpirationTime } from '../../utils/utils'
+import { IThought } from '../../types/thought'
 
 interface IProps {
   addThought: (thought: IThought) => void

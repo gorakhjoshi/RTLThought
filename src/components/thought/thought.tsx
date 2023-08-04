@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { IThought } from '../types/thought'
+import { IThought } from '../../types/thought'
 
 interface IProp {
   thought: IThought
